@@ -1,0 +1,187 @@
+/*大屏幕的工具栏*/
+.toolbar-top{
+	background-color: #222225;
+	height: 68px;
+}
+
+.toolbar-wrapper{
+	display: inline-block;
+	height: 68px;
+	vertical-align: middle;
+}
+.toolbar-wrapper,.toolbar-functions{
+	height: 68px;
+}
+.toolbar-item{
+	float: left;	
+	margin:0 4px;
+	cursor: pointer;
+	position:relative;
+}
+.toolbar-item:hover{
+	background: #383842;
+}
+.toolbar-button{
+	width: 52px;
+	text-align: center;
+	color: #b2b2b2;
+	float: left;
+}
+.toolbar-button-arrow{
+	width: 16px;
+	float:left;
+	padding-top: 40px;
+    height: 68px;
+}
+.ctMrBtn{
+	display:none;
+}
+/*播放的小箭头 lanjq 0123*/ 
+.playArrow{
+	border-left:1px solid #a3a6aa;
+	border-right:1px solid #a3a6aa;
+	width: 20px;
+	height: 49px;
+	margin-top: 14px;
+	text-align:center;
+	border-radius: 3px;
+	padding-top: 25px;
+	
+}
+.toolbar-button-arrow .triangle{
+	width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #3c8fed;
+    border-radius:2px;
+}
+.sub-toolbar,
+.sub-toolbar-download{
+	width: 160px;
+	background-color:#383842;
+	position: absolute;
+	top: 68px;
+	left: 0;
+	display: none;
+	z-index: 100;
+}
+.sub-toolbar li,
+.sub-toolbar div,
+.sub-toolbar-download li{
+	height: 48px;
+	width: 160px;
+	border-bottom: 1px solid #525356;
+	box-shadow: 0 1px 0 rgba(19,19,21,1) ;
+	color: #b2b2b2;
+}
+.sub-toolbar li:last-child,
+.sub-toolbar-download li:last-child{
+	border-bottom: none;
+	box-shadow: none;
+}
+.sub-toolbar li:hover,
+.sub-toolbar div:hover,
+.sub-toolbar-download li:hover{
+	color: #3c8fed;
+}
+.sub-toolbar li i,
+.sub-toolbar div i,
+.sub-toolbar-download li i{
+	width:32px;
+	height: 32px;
+	margin:8px 10px auto;
+	background-image: url(../images/iconToolbar.png);
+	background-repeat: no-repeat;
+}
+.sub-toolbar li i,
+.sub-toolbar div i,
+.sub-toolbar span,
+.sub-toolbar-download li i,
+.sub-toolbar-download span{
+	display: inline-block;
+	float: left;
+	line-height: 48px;
+}
+.toolbar-button i,.toolbar-button span{
+	display:block;
+}
+.toolbar-button i{
+	width:32px ;
+	height: 32px;
+	background-image: url(../images/iconToolbar.png);
+	background-repeat: no-repeat;
+	margin-left: 10px;
+  	margin-top: 12px;
+  	background-position-y: 0;
+}
+.toolbar-button i.blue{
+	background-position-y: -32px;
+}
+.toolbar-button i.CTMRblue{
+	background-position-y: -32px;
+}
+
+.toolbar-button i.icon-play{
+	background-position-y: -32px;
+}
+
+.toolbar-button i.icon-stop{
+	background-position-y:0;
+}
+
+.toolbar-button span{
+	display: block;
+	width: 56px;
+	line-height: 24px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
+
+/*play*/
+.sub-toolbar-play{
+	width: 160px;
+	background-color:#383842;
+	position: absolute;
+	top: 68px;
+	left: 0;
+	display: none;
+	z-index: 100;
+}
+.sub-toolbar-play li{
+	height: 48px;
+	width: 160px;
+	border-bottom: 1px solid #525356;
+	box-shadow: 0 1px 0 rgba(19,19,21,1) ;
+	color: #b2b2b2;
+}
+.sub-toolbar-play li:last-child{
+	border-bottom: none;
+	box-shadow: none;
+}
+.sub-toolbar-play li:hover{
+	color: #3c8fed;
+}
+.sub-toolbar-play li i{
+	width:32px;
+	height: 32px;
+	margin:8px 10px auto;
+	/*background-image: url(../images/iconToolbar.png);
+	background-repeat: no-repeat;*/
+}
+.sub-toolbar-play li i,.sub-toolbar-play span{
+	display: inline-block;
+	float: left;
+	line-height: 48px;
+}
+.list-group-item{
+	background-color: #000;
+}
+a.list-group-item{
+	width: 120px;
+	margin: auto;
+	margin-bottom: 18px;
+	border: 1px solid #525252;
+}

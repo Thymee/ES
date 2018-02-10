@@ -1,0 +1,26 @@
+<div id="studyViewerTemplate" class="tab-pane active hidden" style="height:100%">
+
+    <div class="studyContainer" style="height:100%;overflow:hidden;">
+        <div class="studyRow row" style="height:100%">
+
+            <!-- Thumbnails -->
+            <div class="thumbnailSelector">
+            	<h1>序列缩略图</h1>
+                <ul class="thumbnails list-group tree">
+                	
+                </ul>
+            </div>
+
+            <!-- Viewer -->
+            <div class="viewer">
+                
+
+                <!-- Viewer -->
+                <div class="imageViewer">
+
+                </div>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+</div>
